@@ -10,11 +10,13 @@ const Right = (prop) => {
   const handlechange3 =()=>{
     setChange("createplus")
     prop.setSilent("silent2")
+    prop.setSilent2("silent2")
   }
 
   const handlechange4 =()=>{
     setChange("createminus")
     prop.setSilent("")
+    prop.setSilent2("")
   }
 
   return (

@@ -1,0 +1,33 @@
+@media (max-width:950px) and (min-width:600px) {
+    .left {
+        width: 10vw;
+        
+    }
+    .total, .candidate, .source, .purpose {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .main section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ass {
+        width: 70vw;
+        margin-bottom: 1rem;
+    }
+    .newass {
+      
+        width: 70vw;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    #create {
+        width: 60vw;
+        margin: 0 auto;
+        border-radius: 20px;
+        background-color: #fff;
+        position: absolute;
+        left: 25vw;
+    }
+}

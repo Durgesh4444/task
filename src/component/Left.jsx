@@ -5,7 +5,7 @@ import admin from "../image/admin_meds.png"
 
 const Left = (prop) => {
   return (
-    <div className={prop.state + " " + prop.silent}>
+    <div className={prop.state + " " + prop.silent2}>
       <div className="item hide2">
         
         <p>Menue</p>
