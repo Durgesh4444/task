@@ -317,7 +317,7 @@ section p{
     border-radius: 20px;
     background-color: #fff;
     position: absolute;
-    left: 32vw;                        
+    left: 20vw;                        
     
 }
 .createplus{
@@ -411,6 +411,14 @@ form button{
 .fixed{
     display: none;
 }
+.silent{
+    background-color: rgb(220, 216, 216)
+}
 .silent2 {
     background-color: rgb(220, 216, 216);
   }
+.adjust{
+    position: fixed;
+    margin-left: 10.5vw;
+    
+}
