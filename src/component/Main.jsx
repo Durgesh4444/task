@@ -11,7 +11,7 @@ import link2 from "../image/link2.png";
 
 const Main = (prop) => {
   return (
-    <div className={"main "+ prop.silent}>
+    <div className={"main " + prop.silent}>
       <p className="heading hide">Assesment Overview</p>
 
       <section className="hide">
@@ -69,9 +69,15 @@ const Main = (prop) => {
         </div>
       </section>
 
-      <p className="heading margin-top">My Assesment</p>
-
-      <section className={"cards " +prop.scroll}>
+      <div className="top-bar">
+        <p className="heading margin-top">My Assesment</p>
+        <div className="hide2 logo">
+        <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-filter"></i>
+          <i class="fa-solid fa-chart-simple"></i>
+        </div>
+      </div>
+      <section className={"cards " + prop.scroll}>
         <div className={"newass " + prop.silent}>
           <img src={add} alt="add" onClick={prop.value} />
           <p className="heading title">New Assesment</p>
@@ -81,7 +87,7 @@ const Main = (prop) => {
           </div>
         </div>
 
-        <div className={"ass " +prop.silent}>
+        <div className={"ass " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -104,28 +110,28 @@ const Main = (prop) => {
           </div>
           <div className="dashed" />
           <div className="share">
-              <div className="duration">
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Duration</p>
-                </div>
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Questions</p>
-                </div>
+            <div className="duration">
+              <div>
+                <p>00</p>
+                <p className="subtext">Duration</p>
               </div>
-
-              <div className="LP">
-                <div className="link2">
-                  <img src={link2} alt="" />
-                  <span>Share</span>
-                </div>
-                <div className="circle">LP</div>
+              <div>
+                <p>00</p>
+                <p className="subtext">Questions</p>
               </div>
             </div>
-          </div>
 
-          <div className="ass">
+            <div className="LP">
+              <div className="link2">
+                <img src={link2} alt="" />
+                <span>Share</span>
+              </div>
+              <div className="circle">LP</div>
+            </div>
+          </div>
+        </div>
+
+        <div className={"ass " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -148,30 +154,30 @@ const Main = (prop) => {
           </div>
           <div className="dashed" />
           <div className="share">
-              <div className="duration">
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Duration</p>
-                </div>
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Questions</p>
-                </div>
+            <div className="duration">
+              <div>
+                <p>00</p>
+                <p className="subtext">Duration</p>
               </div>
-
-              <div className="LP lp2">
-                <div className="link2">
-                  <img src={link2} alt="" />
-                  <span>Share</span>
-                </div>
-                <div className="circle">LP</div>
-                <div className="circle two">LP</div>
-                <div className="circle three">LP</div>
+              <div>
+                <p>00</p>
+                <p className="subtext">Questions</p>
               </div>
             </div>
-          </div>
 
-          <div className={"ass hide2 " + prop.silent}>
+            <div className="LP lp2">
+              <div className="link2">
+                <img src={link2} alt="" />
+                <span>Share</span>
+              </div>
+              <div className="circle">LP</div>
+              <div className="circle two">LP</div>
+              <div className="circle three">LP</div>
+            </div>
+          </div>
+        </div>
+
+        <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -194,30 +200,30 @@ const Main = (prop) => {
           </div>
           <div className="dashed" />
           <div className="share">
-              <div className="duration">
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Duration</p>
-                </div>
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Questions</p>
-                </div>
+            <div className="duration">
+              <div>
+                <p>00</p>
+                <p className="subtext">Duration</p>
               </div>
-
-              <div className="LP lp2">
-                <div className="link2">
-                  <img src={link2} alt="" />
-                  <span>Share</span>
-                </div>
-                <div className="circle">LP</div>
-                <div className="circle two">LP</div>
-                <div className="circle three">LP</div>
+              <div>
+                <p>00</p>
+                <p className="subtext">Questions</p>
               </div>
             </div>
-          </div>
 
-          <div className={"ass hide2 " + prop.silent}>
+            <div className="LP lp2">
+              <div className="link2">
+                <img src={link2} alt="" />
+                <span>Share</span>
+              </div>
+              <div className="circle">LP</div>
+              <div className="circle two">LP</div>
+              <div className="circle three">LP</div>
+            </div>
+          </div>
+        </div>
+
+        <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -240,30 +246,30 @@ const Main = (prop) => {
           </div>
           <div className="dashed" />
           <div className="share">
-              <div className="duration">
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Duration</p>
-                </div>
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Questions</p>
-                </div>
+            <div className="duration">
+              <div>
+                <p>00</p>
+                <p className="subtext">Duration</p>
               </div>
-
-              <div className="LP lp2">
-                <div className="link2">
-                  <img src={link2} alt="" />
-                  <span>Share</span>
-                </div>
-                <div className="circle">LP</div>
-                <div className="circle two">LP</div>
-                <div className="circle three">LP</div>
+              <div>
+                <p>00</p>
+                <p className="subtext">Questions</p>
               </div>
             </div>
-          </div>
 
-          <div className={"ass hide2 " + prop.silent}>
+            <div className="LP lp2">
+              <div className="link2">
+                <img src={link2} alt="" />
+                <span>Share</span>
+              </div>
+              <div className="circle">LP</div>
+              <div className="circle two">LP</div>
+              <div className="circle three">LP</div>
+            </div>
+          </div>
+        </div>
+
+        <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -286,30 +292,30 @@ const Main = (prop) => {
           </div>
           <div className="dashed" />
           <div className="share">
-              <div className="duration">
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Duration</p>
-                </div>
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Questions</p>
-                </div>
+            <div className="duration">
+              <div>
+                <p>00</p>
+                <p className="subtext">Duration</p>
               </div>
-
-              <div className="LP lp2">
-                <div className="link2">
-                  <img src={link2} alt="" />
-                  <span>Share</span>
-                </div>
-                <div className="circle">LP</div>
-                <div className="circle two">LP</div>
-                <div className="circle three">LP</div>
+              <div>
+                <p>00</p>
+                <p className="subtext">Questions</p>
               </div>
             </div>
-          </div>
 
-          <div className={"ass hide2 " + prop.silent}>
+            <div className="LP lp2">
+              <div className="link2">
+                <img src={link2} alt="" />
+                <span>Share</span>
+              </div>
+              <div className="circle">LP</div>
+              <div className="circle two">LP</div>
+              <div className="circle three">LP</div>
+            </div>
+          </div>
+        </div>
+
+        <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -332,29 +338,29 @@ const Main = (prop) => {
           </div>
           <div className="dashed" />
           <div className="share">
-              <div className="duration">
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Duration</p>
-                </div>
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Questions</p>
-                </div>
+            <div className="duration">
+              <div>
+                <p>00</p>
+                <p className="subtext">Duration</p>
               </div>
-
-              <div className="LP lp2">
-                <div className="link2">
-                  <img src={link2} alt="" />
-                  <span>Share</span>
-                </div>
-                <div className="circle">LP</div>
-                <div className="circle two">LP</div>
-                <div className="circle three">LP</div>
+              <div>
+                <p>00</p>
+                <p className="subtext">Questions</p>
               </div>
             </div>
+
+            <div className="LP lp2">
+              <div className="link2">
+                <img src={link2} alt="" />
+                <span>Share</span>
+              </div>
+              <div className="circle">LP</div>
+              <div className="circle two">LP</div>
+              <div className="circle three">LP</div>
+            </div>
           </div>
-          <div className={"ass hide2 " + prop.silent}>
+        </div>
+        <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -377,28 +383,28 @@ const Main = (prop) => {
           </div>
           <div className="dashed" />
           <div className="share">
-              <div className="duration">
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Duration</p>
-                </div>
-                <div>
-                  <p>00</p>
-                  <p className="subtext">Questions</p>
-                </div>
+            <div className="duration">
+              <div>
+                <p>00</p>
+                <p className="subtext">Duration</p>
               </div>
-
-              <div className="LP lp2">
-                <div className="link2">
-                  <img src={link2} alt="" />
-                  <span>Share</span>
-                </div>
-                <div className="circle">LP</div>
-                <div className="circle two">LP</div>
-                <div className="circle three">LP</div>
+              <div>
+                <p>00</p>
+                <p className="subtext">Questions</p>
               </div>
             </div>
+
+            <div className="LP lp2">
+              <div className="link2">
+                <img src={link2} alt="" />
+                <span>Share</span>
+              </div>
+              <div className="circle">LP</div>
+              <div className="circle two">LP</div>
+              <div className="circle three">LP</div>
+            </div>
           </div>
+        </div>
       </section>
     </div>
   );

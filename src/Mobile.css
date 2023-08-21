@@ -89,6 +89,17 @@
     display: block;
     
   }
+  .top-bar{
+    position: relative;
+  }
+  .logo{
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+  }
   .header {
     position: fixed;
     top: 0px;
@@ -99,8 +110,8 @@
   .fixed {
     display: flex;
     width: 90vw;
-    gap: 5rem;
-    padding: 0.8rem 2rem;
+    justify-content: space-around;
+    padding: 0.8rem 1rem;
     background-color: #fff;
     font-weight: 500;
     position: fixed;
