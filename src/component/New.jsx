@@ -2,7 +2,7 @@ import React from "react";
 
 const New = (prop) => {
   return (
-    <div id="create" className={prop.value}>
+    <div className={"create " +prop.value}>
       <div className="header2">
         <p className="first">Create new assesment</p>
         <i className="fa-solid fa-x" onClick={prop.value2}></i>

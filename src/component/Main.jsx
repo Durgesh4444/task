@@ -171,7 +171,7 @@ const Main = (prop) => {
             </div>
           </div>
 
-          <div className="ass hide2">
+          <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -217,7 +217,7 @@ const Main = (prop) => {
             </div>
           </div>
 
-          <div className="ass hide2">
+          <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -263,7 +263,7 @@ const Main = (prop) => {
             </div>
           </div>
 
-          <div className="ass hide2">
+          <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -309,7 +309,7 @@ const Main = (prop) => {
             </div>
           </div>
 
-          <div className="ass hide2">
+          <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
@@ -354,7 +354,7 @@ const Main = (prop) => {
               </div>
             </div>
           </div>
-          <div className="ass hide2">
+          <div className={"ass hide2 " + prop.silent}>
           <figure>
             <div>
               <img src={math} alt="" />
